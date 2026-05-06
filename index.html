@@ -27,6 +27,19 @@
             </p>
         </section>
 
+        <!-- INÍCIO DA ATIVIDADE 3: Integração de Vídeo -->
+        <section>
+            <h2>Nossa História em Vídeo</h2>
+            <p>Conheça o processo de fabricação dos nossos pães e o carinho da nossa equipe no vídeo abaixo:</p>
+
+            <!-- Vídeo local com controles, usando o arquivo exato padaria.mp4 -->
+            <video controls width="560" height="315">
+                <source src="videos/padaria.mp4" type="video/mp4">
+                <p>Seu navegador não suporta a reprodução de vídeo. Atualize para uma versão mais recente.</p>
+            </video>
+        </section>
+        <!-- FIM DA ATIVIDADE 3 -->
+
         <!-- SEÇÃO: Nossos Produtos -->
         <section>
             <h2>Nossos Produtos</h2>
@@ -41,7 +54,110 @@
                 <li>🍫 Bolo de chocolate</li>
                 <li>🍗 Torta de frango</li>
             </ul>
+
+            <!-- Tabela de Cardápio (Atividade 1) -->
+            <h3>Cardápio Completo</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Categoria</th>
+                        <th>Produto</th>
+                        <th>Descrição breve</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pães</td>
+                        <td>Pão francês</td>
+                        <td>Tradicional pão de sal, assado a cada hora com casca crocante</td>
+                        <td>R$ 0,80 (unid.)</td>
+                    </tr>
+                    <tr>
+                        <td>Pães</td>
+                        <td>Pão de açúcar</td>
+                        <td>Massa doce e fofinha coberta com crosta de açúcar cristal</td>
+                        <td>R$ 2,50 (unid.)</td>
+                    </tr>
+                    <tr>
+                        <td>Pães</td>
+                        <td>Croissant</td>
+                        <td>Autêntica massa folhada amanteigada francesa</td>
+                        <td>R$ 5,00 (unid.)</td>
+                    </tr>
+                    <tr>
+                        <td>Pães</td>
+                        <td>Pão de Queijo</td>
+                        <td>Receita mineira tradicional feita com queijo meia cura</td>
+                        <td>R$ 3,00 (unid.)</td>
+                    </tr>
+                    <tr>
+                        <td>Doces</td>
+                        <td>Bolo de chocolate</td>
+                        <td>Massa molhadinha com cobertura generosa de brigadeiro</td>
+                        <td>R$ 8,00 (fatia)</td>
+                    </tr>
+                    <tr>
+                        <td>Doces</td>
+                        <td>Torta de morango</td>
+                        <td>Massa crocante com creme de baunilha e morangos frescos</td>
+                        <td>R$ 10,00 (fatia)</td>
+                    </tr>
+                    <tr>
+                        <td>Doces</td>
+                        <td>Sonho recheado</td>
+                        <td>Massa frita polvilhada no açúcar, recheio de creme ou doce de leite</td>
+                        <td>R$ 4,50 (unid.)</td>
+                    </tr>
+                    <tr>
+                        <td>Salgados</td>
+                        <td>Coxinha</td>
+                        <td>Massa de batata macia com recheio cremoso e bem temperado de frango</td>
+                        <td>R$ 6,00 (unid.)</td>
+                    </tr>
+                    <tr>
+                        <td>Salgados</td>
+                        <td>Pastel de queijo</td>
+                        <td>Massa frita na hora, super crocante e com bastante queijo derretido</td>
+                        <td>R$ 5,50 (unid.)</td>
+                    </tr>
+                    <tr>
+                        <td>Salgados</td>
+                        <td>Esfirra</td>
+                        <td>Massa de pão macia com recheio úmido de carne temperada</td>
+                        <td>R$ 4,50 (unid.)</td>
+                    </tr>
+                </tbody>
+            </table>
+
         </section>
+
+        <!-- INÍCIO DA ATIVIDADE 2: Galeria de Imagens -->
+        <section>
+            <h2>Galeria de Fotos</h2>
+            <p>Um pouco do nosso espaço e dos produtos que preparamos com muito carinho para você.</p>
+
+            <!-- Categoria 1: Produtos / Consumo (Mínimo 4 imagens exigidas) -->
+            <h3>Nossos Cafés e Lanches</h3>
+            <div>
+                <img src="images/ambiente/mesa-com-xicaras-de-cafe.png"
+                    alt="Vista superior de uma mesa com várias pessoas segurando xícaras de café e cappuccino">
+                <img src="images/ambiente/cafe-com-latte-art.png"
+                    alt="Xícaras de café na mesa de madeira, uma delas com arte em latte em formato de coração">
+                <img src="images/ambiente/caneca-de-cappuccino-cremoso.png"
+                    alt="Foco bem próximo em uma xícara de vidro com café bem cremoso tipo cappuccino">
+                <img src="images/ambiente/clientes-comendo-croissant.png"
+                    alt="Grupo de amigos felizes consumindo lanches e tomando café na padaria">
+            </div>
+
+            <!-- Categoria 2: Ambiente (Mínimo 1 imagem exigida) -->
+            <h3>Nosso Espaço</h3>
+            <div>
+                <img src="images/ambiente/ambiente-interno-padaria.png"
+                    alt="Visão ampla e aconchegante do interior da padaria com vários clientes sentados nas mesas perto das grandes janelas">
+            </div>
+        </section>
+        <!-- FIM DA ATIVIDADE 2 -->
 
         <!-- SEÇÃO: Diferenciais -->
         <section>
@@ -63,14 +179,31 @@
             <p>Estamos localizados no coração do bairro, na Rua do Bairro, número 123. Venha nos visitar, tomar um café
                 coado na hora e provar nossas delícias!</p>
 
-            <!-- Uso do h3 para um subtítulo menor dentro da seção -->
             <h3>Horários de Funcionamento</h3>
-            <!-- Lista Ordenada (ol) para os horários, indicando uma sequência lógica de dias -->
-            <ol>
-                <li>🕕 Segunda a Sexta: 06:00 às 20:00</li>
-                <li>🕕 Sábados: 07:00 às 18:00</li>
-                <li>🕕 Domingos e Feriados: 07:00 às 13:00</li>
-            </ol>
+
+            <!-- Tabela de Horários (Atividade 1) -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dias da Semana</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda a Sexta</td>
+                        <td>06:00 às 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sábados</td>
+                        <td>07:00 às 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Domingos e Feriados</td>
+                        <td>07:00 às 13:00</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
     </main>
