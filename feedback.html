@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Padaria do Bairro</title>
+</head>
+
+<body>
+    <header>
+        <header>
+        <h1>Padaria do Bairro</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+                <li><a href="pedidos.html">Pedidos Especiais</a></li>
+                <li><a href="feedback.html">Avalie-nos</a></li>
+                <li><a href="cadastro.html">Cadastre-se</a></li>
+            </ul>
+        </nav>
+    </header>
+    </header>
+
+    <main>
+        <h2>Deixe seu Feedback</h2>
+        <p>Sua opinião é fundamental para melhorarmos sempre. Avalie nossos produtos e serviços.</p>
+
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Identificação (Opcional)</legend>
+                <label for="nome">Nome</label><br>
+                <input type="text" id="nome" name="nome"><br><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email">
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Sua Avaliação</legend>
+
+                <label for="servico">O que você está avaliando? *</label><br>
+                <select id="servico" name="servico" required>
+                    <option value="">Selecione...</option>
+                    <option value="paes">Pães tradicionais</option>
+                    <option value="doces">Doces e bolos</option>
+                    <option value="salgados">Salgados</option>
+                    <option value="atendimento">Atendimento</option>
+                    <option value="ambiente">Ambiente</option>
+                    <option value="precos">Preços</option>
+                </select><br><br>
+
+                <p>Avaliação Geral: *</p>
+                <input type="radio" id="excelente" name="avaliacao" value="excelente" required>
+                <label for="excelente">🌟 Excelente</label>
+                <input type="radio" id="bom" name="avaliacao" value="bom">
+                <label for="bom">👍 Bom</label>
+                <input type="radio" id="regular" name="avaliacao" value="regular">
+                <label for="regular">😐 Regular</label>
+                <input type="radio" id="ruim" name="avaliacao" value="ruim">
+                <label for="ruim">👎 Ruim</label><br><br>
+
+                <label for="comentarios">Comentários</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4"
+                    placeholder="Conta pra gente como foi sua experiência!"></textarea><br><br>
+
+                <input type="checkbox" id="recomenda" name="recomenda" value="sim">
+                <label for="recomenda">Recomendaria a padaria para amigos?</label><br><br>
+
+                <input type="checkbox" id="publicacao" name="publicacao" value="sim">
+                <label for="publicacao">Autorizo a publicação deste depoimento no site.</label><br><br>
+            </fieldset><br>
+
+            <button type="submit">Enviar Avaliação</button>
+        </form>
+    </main>
+</body>
+
+</html>

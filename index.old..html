@@ -11,9 +11,16 @@
 
 <body>
 
-    <!-- CABEÇALHO e NAVEGAÇÃO -->
+    <!-- CABEÇALHO: Contém o nome principal do negócio -->
     <header>
         <h1>Padaria do Bairro</h1>
+    </header>
+
+
+    <!-- CABEÇALHO: Contém o nome principal do negócio -->
+    <header>
+        <h1>Padaria do Bairro</h1>
+        <!-- MENU DE NAVEGAÇÃO ADICIONADO -->
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
@@ -25,7 +32,12 @@
         </nav>
     </header>
 
-    <!-- CONTEÚDO PRINCIPAL -->
+
+
+
+
+
+    <!-- CONTEÚDO PRINCIPAL: Onde ficam as informações centrais da página -->
     <main>
 
         <!-- SEÇÃO: Sobre Nós -->
@@ -36,23 +48,26 @@
             </p>
         </section>
 
-        <!-- SEÇÃO: Vídeo -->
+        <!-- INÍCIO DA ATIVIDADE 3: Integração de Vídeo -->
         <section>
             <h2>Nossa História em Vídeo</h2>
             <p>Conheça o processo de fabricação dos nossos pães e o carinho da nossa equipe no vídeo abaixo:</p>
 
+            <!-- Vídeo local com controles, usando o arquivo exato padaria.mp4 -->
             <video controls width="560" height="315">
                 <source src="videos/padaria.mp4" type="video/mp4">
                 <p>Seu navegador não suporta a reprodução de vídeo. Atualize para uma versão mais recente.</p>
             </video>
         </section>
+        <!-- FIM DA ATIVIDADE 3 -->
 
-        <!-- SEÇÃO: Nossos Produtos e Cardápio (Atividade 1) -->
+        <!-- SEÇÃO: Nossos Produtos -->
         <section>
             <h2>Nossos Produtos</h2>
             <p>Temos uma grande variedade de delícias assadas diariamente. Nossos padeiros começam a trabalhar de
                 madrugada para garantir o seu café da manhã. Confira nossos destaques:</p>
 
+            <!-- Lista Não-Ordenada (ul) de produtos -->
             <ul>
                 <li>🥖 Pão francês quentinho</li>
                 <li>🍰 Bolo de Cenoura com Cobertura de Chocolate</li>
@@ -61,8 +76,9 @@
                 <li>🍗 Torta de frango</li>
             </ul>
 
+            <!-- Tabela de Cardápio (Atividade 1) -->
             <h3>Cardápio Completo</h3>
-            <table border="1">
+            <table>
                 <thead>
                     <tr>
                         <th>Categoria</th>
@@ -134,13 +150,15 @@
                     </tr>
                 </tbody>
             </table>
+
         </section>
 
-        <!-- SEÇÃO: Galeria de Fotos com nomes padronizados (Atividades 2 e 4) -->
+        <!-- INÍCIO DA ATIVIDADE 2: Galeria de Imagens -->
         <section>
             <h2>Galeria de Fotos</h2>
             <p>Um pouco do nosso espaço e dos produtos que preparamos com muito carinho para você.</p>
 
+            <!-- Categoria 1: Produtos / Consumo (Mínimo 4 imagens exigidas) -->
             <h3>Nossos Cafés e Lanches</h3>
             <div>
                 <img src="images/ambiente/mesa-com-xicaras-de-cafe.png"
@@ -153,12 +171,14 @@
                     alt="Grupo de amigos felizes consumindo lanches e tomando café na padaria">
             </div>
 
+            <!-- Categoria 2: Ambiente (Mínimo 1 imagem exigida) -->
             <h3>Nosso Espaço</h3>
             <div>
                 <img src="images/ambiente/ambiente-interno-padaria.png"
                     alt="Visão ampla e aconchegante do interior da padaria com vários clientes sentados nas mesas perto das grandes janelas">
             </div>
         </section>
+        <!-- FIM DA ATIVIDADE 2 -->
 
         <!-- SEÇÃO: Diferenciais -->
         <section>
@@ -166,6 +186,7 @@
             <p>Por que escolher a nossa padaria? Nós temos características únicas que fazem toda a diferença no sabor e
                 no seu dia a dia.</p>
 
+            <!-- Lista Não-Ordenada (ul) de diferenciais -->
             <ul>
                 <li>🥬 Ingredientes frescos diários.</li>
                 <li>📜 Receitas tradicionais.</li>
@@ -181,7 +202,8 @@
 
             <h3>Horários de Funcionamento</h3>
 
-            <table border="1">
+            <!-- Tabela de Horários (Atividade 1) -->
+            <table>
                 <thead>
                     <tr>
                         <th>Dias da Semana</th>
@@ -207,7 +229,7 @@
 
     </main>
 
-    <!-- RODAPÉ -->
+    <!-- RODAPÉ: Informações finais de direitos autorais -->
     <footer>
         <p>&copy; 2026 Padaria do Bairro. Todos os direitos reservados.</p>
     </footer>
